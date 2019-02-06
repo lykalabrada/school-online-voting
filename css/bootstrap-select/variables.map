@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../scss/bootstrap-select/variables.css",
+	"sources": [
+		"../../scss/bootstrap-select/variables.scss"
+	],
+	"sourcesContent": [
+		"$color-red-error: rgb(185, 74, 72) !default;\r\n$color-grey-arrow: rgba(204, 204, 204, 0.2) !default;\r\n\r\n$width-default: 220px !default; // 3 960px-grid columns\r\n\r\n$zindex-select-dropdown: 1060 !default; // must be higher than a modal background (1050)\r\n\r\n//** Placeholder text color\r\n$input-color-placeholder: #999 !default;\r\n"
+	],
+	"mappings": "",
+	"names": []
+}

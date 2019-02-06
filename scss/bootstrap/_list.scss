@@ -1,0 +1,74 @@
+//
+// List custom style
+// --------------------------------------------------
+.list{
+	margin-bottom: 30px;
+	li{
+		padding: 5px 0;
+	}
+}
+.list-icon {
+	&.list-icon-lg{
+			li{
+			padding: 5px 0 5px 45px;
+			&:before{
+			    font-family: "FontAwesome";
+			    position: absolute;
+			    left: 15px;
+			    width: 45px;
+			    text-align: center;
+			    font-size: 30px;
+			    line-height: 28px;
+			}
+		}
+	}
+	li{
+		padding: 5px 0 5px 30px;
+		&:before{
+		    font-family: "FontAwesome";
+		    position: absolute;
+		    left: 15px;
+		    width: 21px;
+		    text-align: center;
+		}
+	}
+
+
+}
+.icon-date-start:before{
+	content:$fa-var-calendar-plus-o;
+}
+.icon-date-end:before{
+	content:$fa-var-calendar-check-o;
+}
+.icon-money:before{
+	content:$fa-var-money;
+}
+.icon-globe:before{
+	content:$fa-var-globe;
+}
+.icon-email:before{
+	content:$fa-var-envelope;
+}
+.icon-phone:before{
+	content:$fa-var-phone;
+}
+.icon-mobile:before{
+	content:$fa-var-mobile;
+	font-size: 19px;
+    line-height: 23px;
+}
+.icon-location:before{
+	content:$fa-var-map-marker;
+	font-size: 17px;
+    line-height: 19px;
+}
+.icon-user:before{
+	content:$fa-var-user-circle;
+}
+.icon-facebook:before{
+	content:$fa-var-facebook-official;
+}
+.icon-twitter:before{
+	content:$fa-var-twitter;
+}
